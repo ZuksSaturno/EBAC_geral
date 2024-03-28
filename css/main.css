@@ -1,0 +1,22 @@
+/*
+Criar mais duas seções no layout criado durante o módulo, por exemplo: entretenimento e tecnologia, as novas seções devem conter outras notícias e diferentes cores;
+*/
+*{
+    color: red;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: green;
+}
+h2{
+    color: green;
+}
+#economy h2{
+    color: gold ;
+}
+.creation-date{
+    color: #ccc;
+}
