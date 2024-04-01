@@ -58,7 +58,7 @@ section h2,.article article{
     margin-top: 8px 0px;
 }
 .article article a{
-    background-color: blue;
+    background-color: rgba(18, 212, 18, 0.849);
     color: aliceblue;
     padding: 8px;
     display: inline-block;
@@ -89,4 +89,16 @@ section h2{
 }
 #economy .article article a{
     background-color: #ff9f1a;
+}
+#music{
+    background-color: rgba(250, 3, 3, 0.151);
+}
+#music a{
+    background-color: red;
+}
+#filmes{
+    background-color: rgba(0, 0, 255, 0.233);
+}
+#filmes a{
+    background-color: blue;
 }
