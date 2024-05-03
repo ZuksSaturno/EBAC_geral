@@ -8,18 +8,24 @@
 </head>
 <body>
     
-    <div class="container">
-        <form >
-            <input type="number" placeholder="Campo A " required>
-            <p class="errormsg" id="error">
+    <div class="container" id="formvalidador">
+        <!--<p class="errormsg" id="error">
                 Este campo precisa ser maior que o campo B
             </p>
-            <input type="number" placeholder="Campo B" required>
+        
+            <p class="messagesucesso">Os parametros inseridos no campo A e B  foram  validados</p>
+        -->
+        
+        <form >
+            <input type="number" placeholder="Campo A " required id="campa">
+            <input type="number" placeholder="Campo B" required id="campb">
             <button type="submit">Verificar</button>
+        
+        <p id="acerto">Informações enviadas com sucesso </p>
+        <p id="erro" >O campo A deve ser menor que o campo B</p>
         </form>
-        <p class="messagesucesso">Os parametros inseridos no campo A e B  foram  validados</p>
     </div>
 
-    <script src="main.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>

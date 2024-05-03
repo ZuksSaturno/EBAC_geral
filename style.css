@@ -23,7 +23,7 @@ form{
     padding-top: 20px;
     padding-bottom: 20px;
     margin: auto;
-    background-color: rgba(127, 255, 212, 0.432);
+    background-color: rgba(127, 255, 212, 0);
 }
 input{
     display:block;
@@ -56,17 +56,18 @@ p{
     padding: 10px 0px;
     font-weight: bold;
     color: aliceblue;
+    display: none;
+
 }
 .messagesucesso{
-    display: none;
+    display: block;
+    color: aliceblue;
+    background-color: rgba(1, 192, 1, 0.699);
+    transition: 2s;
 }
 .errormsg{
-    display: none;
-}
-#error{
-    font-weight: 100;
-    width: 300px;
-    background-color:rgba(247, 2, 2, 0.5);
-    color: rgb(255, 255, 255);
-    
+    display: block;
+    color: #ffff;
+    background-color: rgba(221, 11, 11, 0.788);
+    transition: 2s;
 }
